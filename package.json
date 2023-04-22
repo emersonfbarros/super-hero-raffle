@@ -1,0 +1,22 @@
+{
+  "name": "super-hero-raffle",
+  "version": "1.0.0",
+  "description": "Simple website that displays random heroes. Maybe you'll discover a new hero...",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.10.0",
+    "vite": "^4.3.1"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.7.3"
+  }
+}
